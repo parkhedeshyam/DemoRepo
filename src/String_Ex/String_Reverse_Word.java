@@ -1,6 +1,7 @@
 package String_Ex;
 
-public class String_Reverse_Word {
+public class String_Reverse_Word 
+{
 
 	public static void main(String[] args) 
 	{
@@ -15,7 +16,6 @@ public class String_Reverse_Word {
 			str1=str1+a[i]+" ";
 		}
 		System.out.println("The reverser String is ::"+str1);
-
 	}
 
 }
