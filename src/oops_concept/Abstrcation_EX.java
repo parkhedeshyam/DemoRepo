@@ -15,10 +15,9 @@ package oops_concept;
 {
 	
     @Override
-    
     public void makeNoise() 
     {  x=x+10;
-       System.out.println("cat ........"+(x+2));
+       System.out.println("Cat ........"+(x+2));
     }
 }
  class Dog extends Animal 
@@ -26,7 +25,7 @@ package oops_concept;
     @Override
     public void makeNoise() 
     {
-    	System.out.println("DOg ........");
+    	System.out.println("Dog ........");
     }
 }
 
@@ -42,5 +41,4 @@ public class Abstrcation_EX
         a2.normalMethod();
     }
 	
-
 }

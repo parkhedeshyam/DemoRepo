@@ -10,7 +10,7 @@ public class ArrayList_Sort_String
 	{
 		
       System.out.println("Example of Collections");
-     ArrayList al=new ArrayList();
+     ArrayList <String>al=new ArrayList();
      al.add("C");
      al.add("Java");
      al.add("Php");
@@ -24,9 +24,18 @@ public class ArrayList_Sort_String
      System.out.print("After Sort in descending    Elemets is :");
      Collections.sort(al,Collections.reverseOrder());
      System.out.println(al);
-    }
+System.out.println("Display using Foreach Loop");
+     for(String x:al)
+     {
+    	 System.out.print(x+" ");
+     }
+     System.out.println();
+     System.out.println("Display using For Loop");
+     for(int x=0;x<al.size();x++)
+     {
+    	 System.out.print(al.get(x)+" ");
+     }
+	
+	}
+
 }
-	
-	
-
-

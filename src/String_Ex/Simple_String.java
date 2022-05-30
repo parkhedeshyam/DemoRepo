@@ -14,7 +14,7 @@ public class Simple_String {
 	      char charArray[] = str.toCharArray();
 	      Arrays.sort(charArray);
 	      System.out.println(Arrays.toString(charArray));
-	 String x=     new String(charArray);
+	      String x=     new String(charArray);
 	      //System.out.println(new String(charArray));
 	 System.out.println(x);
 	}

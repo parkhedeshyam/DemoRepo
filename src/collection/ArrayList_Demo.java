@@ -27,7 +27,10 @@ public class ArrayList_Demo
       
       System.out.println("Max elements sort is : "+list);
      
-    
+      for(int i:list)
+      {
+    	  System.out.println(i);
+      }
     
       
      
